@@ -1,15 +1,9 @@
 from datetime import date
 import datetime
-# import json
-
 
 class Student:
 
-# def __init__(self, subdir, thesaurus, use_weights):
-#     super(WeightEmail, self).__init__(subdir, thesaurus, use_weights)
-
     def __init__(self, firstname, lastname, birthdate, grades):
-        # super(json.JSONEncoder, self).__init__()
         self.firstname = firstname
         self.lastname = lastname
         self.birthdate = birthdate
