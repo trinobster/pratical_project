@@ -1,12 +1,5 @@
 def fibonacci(n):
-    #f0 = 0
-    #f1 = 1
-    #fn = fn_minus_1 + fn_minus_2
-
     if(n <= 2):
-        #fn_minus_1 = 1
-        #fn_minus_2 = 0
-
         return 1
     else:
         return fibonacci(n - 1) + fibonacci (n - 2)
