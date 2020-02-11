@@ -30,7 +30,7 @@ Eseguire da console lo script api.py, che attiverà Flask
 Da postman chiamare la web api create_student per creare un nuovo studente inserendo nel Body come json le proprietà (firstname, lastname, birthdate, grades)
 Il metodo ritorna 'true' se la creazione è riuscita, 'false' altrimenti
 
-![Image of postman create_student](https://github.com/trinobster/pratical_project/images/postman_create_student.png)
+![Image of postman create_student](https://github.com/trinobster/pratical_project/blob/master/images/postman_create_student.png)
 
 Da postman chiamare la web api get_students per recuperare gli studenti creati mentre il server è attivo
-![Image of postman get_students](https://github.com/trinobster/pratical_project/images/postman_get_students.png)
+![Image of postman get_students](https://github.com/trinobster/pratical_project/blob/master/images/postman_get_students.png)
