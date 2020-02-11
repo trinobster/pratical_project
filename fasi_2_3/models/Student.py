@@ -1,9 +1,15 @@
 from datetime import date
 import datetime
+# import json
 
 
 class Student:
-    def __init__(self, firstname, lastname, birthdate, grades = None):
+
+# def __init__(self, subdir, thesaurus, use_weights):
+#     super(WeightEmail, self).__init__(subdir, thesaurus, use_weights)
+
+    def __init__(self, firstname, lastname, birthdate, grades):
+        # super(json.JSONEncoder, self).__init__()
         self.firstname = firstname
         self.lastname = lastname
         self.birthdate = birthdate
@@ -33,6 +39,14 @@ class Student:
         for grade in grades_array:
             sum = sum + int(grade)
         return (sum / len(grades_array))
+
+    def serialize(self):
+        return {
+            "firstname": self.firstname,
+            "lastname": self.lastname,
+            "birthdate": self.birthdate,
+            "grades": self.grades
+        }
 
     def to_string(self):
         print("Profilo studente:")

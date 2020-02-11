@@ -26,4 +26,11 @@ avg_grade utilizza un array di interi passati come input
 avg_grade2 utilizza la property 'grades' dell'oggetto Student interpretandola come una stringa di interi separati da virgole
 
 ## Fase 3 - directory fasi_2_3
-Da postman
+Eseguire da console lo script api.py, che attiverà Flask
+Da postman chiamare la web api create_student per creare un nuovo studente inserendo nel Body come json le proprietà (firstname, lastname, birthdate, grades)
+Il metodo ritorna 'true' se la creazione è riuscita, 'false' altrimenti
+
+![Image of postman create_student](https://github.com/trinobster/pratical_project/images/postman_create_student.png)
+
+Da postman chiamare la web api get_students per recuperare gli studenti creati mentre il server è attivo
+![Image of postman get_students](https://github.com/trinobster/pratical_project/images/postman_get_students.png)
