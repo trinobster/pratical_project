@@ -28,8 +28,8 @@ def main():
         number = number + 1
         result = fibonacci_loop(number)
 
-    print (count_digits(result))
-    print ("Il numero cercato è = " + str(number))
+    print ("Il numero di cifre è stato raggiunto: " + str(count_digits(result)))
+    print ("Il numero cercato è: " + str(number))
 
 if __name__== "__main__":
     main()
